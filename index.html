@@ -2,14 +2,18 @@
 <html>
     <head>
         <title>Google</title>
+        <link href="./styles.css" type="text/css" rel="stylesheet">
     </head>
     <body>
             <h6>Gmail</h6>
             <h6>Imagenes</h6>
         <a href="https://www.google.com/"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"></a>
         <form for="Search">
-            <input type="submit" name="search" id="search" value="Search with Google">
-            <input type="submit" name="search" id="search" value="I'm feeling lucky">
+            <input class="search-bar" type="text" name="Whatyalookingfor" id="whatyalookingfor"><br>
+            <div class="search-button">
+                <input class="button Gsearch" type="submit" name="search" id="search" value="Search with Google">
+                <input class="button Flucky" type="submit" name="search" id="search" value="I'm feeling lucky">
+            </div>
         </form>
         <div>
             Ofrecido por Google en: <a href="https://www.google.com/">Español latinoamerica</a>
@@ -19,12 +23,16 @@
         </div>
         <div>
             <footer>
-                <h6>Publicidad</h6>
-                <h6>Negocios</h6>
-                <h6>Acerca de</h6>
-                <h6>Privacidad</h6>
-                <h6>Condiciones</h6>
-                <h6>preferencias</h6>
+                <div class="grid-1">
+                    <a href="index.html" class="f31" >Publicidad</a>
+                    <a href="index.html" class="f32" >Negocios</a>
+                    <a href="index.html" class="f33" >Acerca de</a>
+                </div>
+                <div class="grid-2">
+                    <a href="index.html" class="l3" >Privacidad</a>
+                    <a href="index.html" class="l3" >Condiciones</a>
+                    <a href="index.html" class="l3" >preferencias</a>
+                 </div>
             </footer>
         </div>
     </body>

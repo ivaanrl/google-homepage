@@ -1,0 +1,39 @@
+.search-button {
+    top: 40%;
+    left: 40%;
+    position: absolute;
+    width: 500px;
+}
+.button {
+    background-color: white;
+    color: black;
+    font-weight: 300px;
+    border: 1px solid white;
+
+}
+.gsearch {
+    padding-right: 20px;
+}
+.Flucky {
+    padding-left: 20px;
+}
+.search-bar {
+    width: 500px;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    border-radius: 16px;
+    height: 30px;
+    border: 1px solid rgb(216, 213, 213);
+}
+footer {
+    bottom: 0;
+    position: absolute;
+}
+.grid-1 {
+    display:grid;
+    grid-area: 3 / 1 ;
+}
+.f31 {
+    
+}
